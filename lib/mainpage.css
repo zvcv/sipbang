@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* mainpage */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#mainbox {
+    width: 100%;
+    margin: auto;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* header */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#header{
+    height: 150px;
+    background-color: #dde1e7;
+}
+
+#titlelogo img {
+    width: 110px;
+    margin-top: 25px;
+    margin-left: 45px;
+    float: left;
+}
+
+#title {
+    margin-top: 38px;
+    margin-left: 25px;
+    float: left;
+}
+
+#titlemain {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #333;
+}
+
+#titlesub {
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    color: #545454;
+}
+
+#welcomemsg {
+    font-size: 24px;
+    text-align: center;
+    float: right;
+    margin-top: 42px;
+    margin-right: 70px;
+}
+
+#welcomemsg x {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* menu bar */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#menu {
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 50px;
+}
+
+#menu a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#maindrop {
+	float: left;
+	overflow: hidden;
+}
+
+#maindrop #subdrop1 {
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 14px;
+	background-color: inherit;
+}
+
+#menu a:hover, #maindrop:hover #subdrop1 {
+	color: black;
+    background-color: grey;
+}
+
+#submenu {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#submenu a {
+	float: none;
+	color: black;
+	padding: 12px 14px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+#submenu a:hover {
+	background-color: #ddd;
+}
+
+#maindrop:hover #submenu {
+	display: block;
+}
+
+#menu #logoutbtn {
+    float: right;
+    margin-right: 100px;
+}
+
+#clearfloat {
+    clear: both;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/*--css untuk data pengguna--*/
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#create {
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 90%;
+    background-color: none;
+    
+}
+
+#btnCreate {
+    width: 60px;
+    height: 30px;
+    font-size: 13px;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    background-color: #6b92e5;
+    box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.7), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    /* margin: auto; */
+}
+
+#btnCreate:hover {
+    color: #ffffff;
+    background: #f88ab0;
+    cursor: pointer;
+    box-shadow: inset -4px -4px 7px rgba(94, 104, 121, 0.2), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/*-- end of css untuk data pengguna--*/
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* main content */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#content{
+    width: 100%;
+    height: 525px;
+    background-color: #dde1e7;
+}
+
+#isicontent {
+    width: 1320px;
+    height: 505px;
+    margin: 0 auto;
+    background-color: #dde1e7;
+    
+    /* border-right: 1px solid black;
+    border-left: 1px solid black; */
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* footer */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#footercontainer {
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+}
+
+#footer{
+    float: center;
+    width: fit-content;
+    height: 200px;
+    margin: 0 auto;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+    /* padding-left: 487px; */
+}
+
+#footer #thumb {
+    width: 30px;
+    float: left;
+}
+
+#namaaplikasi {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-top: 20px;
+    margin-left: 75px;
+    color: white;
+    float: left;
+}
+
+#foot1 {
+    padding-top: 15px;
+    padding-left: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 9px;
+    font-weight:lighter;
+}
+
+#signature {
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight:lighter;
+    font-size: 12px;
+}
+
+#sosmed {
+    padding-top: 20px;
+    padding-left: 9px;
+}
+
+#sosmed img {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    /* box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4); */
+    float: left;
+}
+
+#instagram:hover, #facebook:hover, #twitter:hover, #telegram:hover {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#vl {
+    width: 1px;
+    background-color: rgb(159, 159, 159);
+    height: 130px;
+    margin-top: 35px;
+    margin-left: 55px;
+    float: left;
+}
+
+#contactus {
+    float: left;
+    margin-top: 33px;
+    margin-left: 55px;
+    /* border: 1px solid white; */
+}
+
+#contactus .info1 {
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* end of footer */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* popupbox */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+.modal {
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	background-color: #FEF5ED;
+	width: 300px;
+	padding: 20px;
+	margin: 15% auto;
+	border: solid 1px gray;
+	border-radius: 15px;
+	box-shadow: rgba(0,0,0,0.3) 5px 5px 5px
+}
+
+.btnModalClose {
+	float: right;
+	color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.btnModalClose:hover,
+.btnModalClose:focus {
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btnClick {
+	background-color: #99A799;
+	color: white;
+	border: none;
+	width: 65px;
+	height: 25px;
+}
+
+.btnClick:hover {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* end of popupbox */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+.dpengguna {
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.buttoncontainer {
+    width: 100%;
+    height: fit-content;
+    margin: 10px 0;
+}
+
+.buttonz {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#btnTambahPengguna:hover, #btnEditPengguna:hover, #btnHapusPengguna:hover, #Refresh:hover {
+    cursor: pointer;
+}
+
+#tblDataPengguna_wrapper {
+    height: 380px;
+    border: 3px solid #333;
+    padding: 10px;
+    overflow: auto;
+}
+
+#tblDataPengguna thead {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-weight: bold;
+}
